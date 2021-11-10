@@ -7,31 +7,31 @@
 .nav{
     display: flex;
     justify-content:right;
-    max-height: 60px;
-    max-width: 900px;
+    block-size: auto;
+    max-width: 100%;
+    min-height: fit-content;
     background-color: gray;
     align-items: center;
 }
 
 .nav-title{
-    display: flex;
-    margin-right: 390px;
+    margin-right: auto;
+    margin-left: 10px;
     font-size: 30px;
 }
 .nav-links{
-    padding: 5px;
     display: flex;
     align-items: center;
 }
 
 .active{
-    text-decoration: none;
     font-weight: bold;
 }
 
 .btn{
+    margin-right: 5px;
+    width: 100px;
     padding: 3px;
-    min-width: 75px;
     background-color:cyan;
     border: 2px;
     border-color: black;
@@ -45,6 +45,9 @@ ul{
 }
 
 li{
-    text-decoration:none;
     margin: 10px;
+}
+
+.no-format{
+    text-decoration: none;
 }
